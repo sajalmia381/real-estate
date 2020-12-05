@@ -1,0 +1,134 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="55">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="weasyprint" />
+            <item index="2" class="java.lang.String" itemvalue="django-ckeditor" />
+            <item index="3" class="java.lang.String" itemvalue="django-filter" />
+            <item index="4" class="java.lang.String" itemvalue="asgiref" />
+            <item index="5" class="java.lang.String" itemvalue="pytz" />
+            <item index="6" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="7" class="java.lang.String" itemvalue="msgpack" />
+            <item index="8" class="java.lang.String" itemvalue="graphql-relay" />
+            <item index="9" class="java.lang.String" itemvalue="pytimeparse" />
+            <item index="10" class="java.lang.String" itemvalue="rx" />
+            <item index="11" class="java.lang.String" itemvalue="threadloop" />
+            <item index="12" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="13" class="java.lang.String" itemvalue="h11" />
+            <item index="14" class="java.lang.String" itemvalue="promise" />
+            <item index="15" class="java.lang.String" itemvalue="purl" />
+            <item index="16" class="java.lang.String" itemvalue="google-measurement-protocol" />
+            <item index="17" class="java.lang.String" itemvalue="graphene" />
+            <item index="18" class="java.lang.String" itemvalue="measurement" />
+            <item index="19" class="java.lang.String" itemvalue="graphene-django" />
+            <item index="20" class="java.lang.String" itemvalue="django-prices" />
+            <item index="21" class="java.lang.String" itemvalue="django-cache-url" />
+            <item index="22" class="java.lang.String" itemvalue="django-countries" />
+            <item index="23" class="java.lang.String" itemvalue="opentracing" />
+            <item index="24" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="25" class="java.lang.String" itemvalue="phonenumberslite" />
+            <item index="26" class="java.lang.String" itemvalue="thrift" />
+            <item index="27" class="java.lang.String" itemvalue="adyen" />
+            <item index="28" class="java.lang.String" itemvalue="razorpay" />
+            <item index="29" class="java.lang.String" itemvalue="django-prices-vatlayer" />
+            <item index="30" class="java.lang.String" itemvalue="jaeger-client" />
+            <item index="31" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="32" class="java.lang.String" itemvalue="prices" />
+            <item index="33" class="java.lang.String" itemvalue="django-measurement" />
+            <item index="34" class="java.lang.String" itemvalue="google-i18n-address" />
+            <item index="35" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="36" class="java.lang.String" itemvalue="django-versatileimagefield" />
+            <item index="37" class="java.lang.String" itemvalue="enmerkar" />
+            <item index="38" class="java.lang.String" itemvalue="html-to-draftjs" />
+            <item index="39" class="java.lang.String" itemvalue="dj-database-url" />
+            <item index="40" class="java.lang.String" itemvalue="botocore" />
+            <item index="41" class="java.lang.String" itemvalue="draftjs-sanitizer" />
+            <item index="42" class="java.lang.String" itemvalue="aniso8601" />
+            <item index="43" class="java.lang.String" itemvalue="dj-email-url" />
+            <item index="44" class="java.lang.String" itemvalue="graphql-core" />
+            <item index="45" class="java.lang.String" itemvalue="text-unidecode" />
+            <item index="46" class="java.lang.String" itemvalue="django-appconf" />
+            <item index="47" class="java.lang.String" itemvalue="maxminddb-geolite2" />
+            <item index="48" class="java.lang.String" itemvalue="django-templated-email" />
+            <item index="49" class="java.lang.String" itemvalue="graphene-federation" />
+            <item index="50" class="java.lang.String" itemvalue="django-prices-openexchangerates" />
+            <item index="51" class="java.lang.String" itemvalue="singledispatch" />
+            <item index="52" class="java.lang.String" itemvalue="boto3" />
+            <item index="53" class="java.lang.String" itemvalue="braintree" />
+            <item index="54" class="java.lang.String" itemvalue="s3transfer" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E712" />
+          <option value="E501" />
+          <option value="E714" />
+          <option value="E722" />
+          <option value="E262" />
+          <option value="E266" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="product.models.Product.id" />
+          <option value="analytic.models.ObjectViewed.objects" />
+          <option value="product.models.Category.product_set" />
+          <option value="attachment.models.Image.objects" />
+          <option value="sitesetting.models.SiteSetting.objects" />
+          <option value="django.db.models.fields.EmailField.split" />
+          <option value="chat.models.Message.objects" />
+          <option value="object.post" />
+          <option value="plx.mixin.NextUrlMixin.request" />
+          <option value="order.models.Order.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.price_setting" />
+          <option value="django.db.models.fields.related.ForeignKey.regularprice" />
+          <option value="django.db.models.fields.related.ForeignKey.fobprice_set" />
+          <option value="django.db.models.fields.related.ForeignKey.pk" />
+          <option value="django.db.models.fields.files.ImageField.delete" />
+          <option value="versatileimagefield.fields.VersatileImageField.delete" />
+          <option value="sitesetting.models.HomeBanner.objects" />
+          <option value="object.id" />
+          <option value="product.models.Category.products" />
+          <option value="product.models.Category.children" />
+          <option value="object.get_form_kwargs" />
+          <option value="plx.mixin.RequestFormAttachMixin.request" />
+          <option value="inquiry.models.RFQ.objects" />
+          <option value="django.db.models.fields.related.OneToOneField.pk" />
+          <option value="product.models.RegularPrice.objects" />
+          <option value="product.models.RangePrice.objects" />
+          <option value="order.models.ProductSpecification.id" />
+          <option value="django.db.models.fields.related.ForeignKey.get_absolute_url" />
+          <option value="mptt.fields.TreeForeignKey.children" />
+          <option value="django.db.models.fields.related.ForeignKey.items" />
+          <option value="attachment.models.Image.productgallery_set" />
+          <option value="object.get_context_data" />
+          <option value="analytic.mixins.ObjectsViewedMixin.request" />
+          <option value="product.models.UnionPrice.objects" />
+          <option value="rest_framework.serializers.SubCategorySerializer" />
+          <option value="django.db.models.fields.related.ForeignKey.images" />
+          <option value="product.models.ProductImage.objects" />
+          <option value="attachment.models.ProductImage.objects" />
+          <option value="posts.models.Blog.objects" />
+          <option value="tweets.models.Tweet.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
